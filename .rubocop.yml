@@ -1,0 +1,11 @@
+Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/*.rb'
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Layout/EndOfLine:
+  Enabled: false
