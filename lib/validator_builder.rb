@@ -11,6 +11,7 @@ module ValidatorBuilder
       next unless klass&.valid_options?(options)
 
       # TODO: Add options validations
+      # Test github
 
       res << klass.new(attr_name, options)
     end
