@@ -12,3 +12,5 @@ r.name = '123'
 r.email = 'example@gmail.com'
 p r.valid?
 p r.validate!
+p r.email = nil
+p r.valid?
